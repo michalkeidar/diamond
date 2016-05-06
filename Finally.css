@@ -1,0 +1,33 @@
+.card {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+#card-block {
+	text-align: center;
+	opacity: 0.6;
+	border: 1px solid black;
+}
+.disabled-card-block{
+	text-align: center;
+	opacity: 0.6;
+	border: 1px solid black;
+	pointer-events: none;
+}
+#reset-score{
+	background-color: green;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	padding: 3px;
+	width: auto;
+	height: auto;
+}
+
+.text-score{
+	background-color: gray;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	
+}
